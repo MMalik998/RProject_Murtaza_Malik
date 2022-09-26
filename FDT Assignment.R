@@ -28,7 +28,7 @@ summary(dfIris$petal.length)
 #Selection:
 CatPetal.length=c()
 
-for (m in 1: length(dfIris)) {
+for (m in 1: length(dfIris$petal.length)) {
   if(dfIris$petal.length[m]<3){
     CatPetal.length[m]="short"
     }else if (dfIris$petal.length[m]>=3 & dfIris$petal.length[m] < 5) {
@@ -39,6 +39,7 @@ for (m in 1: length(dfIris)) {
 }
 
 head(CatPetal.length)
+table(CatPetal.length)
 
 Petal.length= cbind(dfIris$petal.length, CatPetal.length)
 View(Petal.length)
