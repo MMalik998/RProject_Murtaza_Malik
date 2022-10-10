@@ -2,7 +2,7 @@
   #                                         Dplyr Assignment
   #                                        Murtaza Malik Aqbal
 
-  # First, I upload my Datset (dots) from the web & instal the "dplyr" Package. 
+  # First, I upload my Dataset (dots) from the web & install the "dplyr" Package. 
 dots=read.csv(url("https://raw.githubusercontent.com/mwaskom/seaborn-data/master/dots.csv"))
 head(dots)
 tail(dots)
