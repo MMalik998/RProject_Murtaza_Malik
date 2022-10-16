@@ -3,7 +3,7 @@ install.packages("ggplot2")
 library(ggplot2)
 head(dots)
 
-#I create the pie chart on the Categorical variable (align) of my dataset (dots). We also have to remember that before creating the pie chartm we have a create teh frequency distribution table of the varibale (align).
+#I create the pie chart on the Categorical variable (align) of my dataset (dots). We also have to remember that before creating the pie chart, we have a create the frequency distribution table of the variable (align).
 
 FdtAlign=table(dots$align)
 FdtAlign=as.data.frame(FdtAlign)
